@@ -13,3 +13,21 @@ from random import randint
 
 
 # Begin your solution here...
+
+selector: int = randint(1, 3)
+
+fort_1: str = "Do what you want, not what you should."
+fort_2: str = "There are NO accidents!"
+fort_3: str = "it ain't easy being cheesy"
+
+print("Your fortune cookie says...")
+if selector == 1:
+    print(fort_1)
+else:
+    if selector == 2:
+        print(fort_2)
+    else:
+        if selector == 3:
+            print(fort_3)
+print(selector)
+print("Now go spread positive vibes!")
