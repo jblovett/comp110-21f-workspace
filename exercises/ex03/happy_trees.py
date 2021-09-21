@@ -15,3 +15,7 @@ while i < depth:
     print(TREE)
     TREE = TREE + addition
     i += 1
+
+print("\n")
+
+while 
