@@ -17,5 +17,3 @@ while i < depth:
     i += 1
 
 print("\n")
-
-while 
