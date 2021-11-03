@@ -1,16 +1,18 @@
 """Counting letters in a string."""
 
-__author__ = "ENTER YOUR 9-DIGIT PID HERE"
+__author__ = "730243388"
 
 letter: str = input("What letter do you want to seach for?: ")
 word: str = input("Enter a word: ")
 
-index: int = 0
-counter: int = 0
+# Begin your solution here...
 
-while index < len(word):
-    if word[index] == letter:
-        counter = counter + 1
-    index = index + 1
-    
-print("Count: " + str(counter))
+letter: str = input("What letter do you want to seach for? ")
+word: str = input("Enter a word ")
+count: int = 0
+i: int = 0
+while (i < len(word)):
+    if word[i] == letter:
+        count += 1
+    i += 1
+print("Count: " + str(count))

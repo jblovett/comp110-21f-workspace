@@ -2,17 +2,16 @@
 
 __author__ = "123456789"
 
+word: str = input("Enter a word: ")
 
-number: int = int(input("Enter an int: "))
+i: int = 0
+duplicate: bool = False
+while (i < len(word)):
+    j: int = i + 1
+    while(j < len(word)):
+        if (word[i] == word[j]):
+            duplicate = True
+        j += 1
+    i += 1
 
-
-if number % 2 == 0 and number % 7 == 0:
-    print("TAR HEELS")
-else:
-    if number % 2 == 0:
-        print("TAR")
-    else:
-        if number % 7 == 0:
-            print("HEELS")
-        else:
-            print("CAROLINA")
+print("Found duplicate: " + str(duplicate))
